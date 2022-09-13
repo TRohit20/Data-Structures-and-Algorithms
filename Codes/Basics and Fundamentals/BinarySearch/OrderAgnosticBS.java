@@ -22,11 +22,7 @@ public class OrderAgnosticBS {
         int end=arr.length-1;
 //        To check if the array is ascending or descending
        boolean ascending;
-       if(arr[start]<arr[end]){
-           ascending=true;
-       }else{
-           ascending=false;
-       }
+        ascending= arr[start] < arr[end];
 //       Another way to check for boolean: boolean ascending= arr[start]<arr[end];
 
        while(start<=end){

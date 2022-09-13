@@ -33,6 +33,6 @@ public class CeilingNumber {
             }
         }
 //        Since we need the ceiling number, the new start after breaking the while condition is the ceiling number
-        return start=end+1;
+        return start;
     }
 }
