@@ -3,7 +3,7 @@ package CyclicSort;
 import java.util.Arrays;
 
 // https://leetcode.com/problems/set-mismatch/
-//
+
 public class Setmismatch {
     public static void main(String[] args) {
         int[] arr={1,2,2,4};
@@ -20,6 +20,7 @@ public class Setmismatch {
             }
         }
 //        Loop violated so the array is sorted
+//        Condition to find and return the element repeated and missed
         for(int index=0;index<nums.length;index++){
             if(nums[index] != index+1){
                 return new int[] {nums[index],index+1};
