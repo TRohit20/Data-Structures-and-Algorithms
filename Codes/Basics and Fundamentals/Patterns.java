@@ -2,7 +2,7 @@ public class Patterns {
     public static void main(String[] args) {
         pattern30(5);
     }
-    static void pattern31(int n) {
+    public static void pattern31(int n) {
         int originalN = n;
         n = 2 * n;
         for (int row = 0; row <= n; row++) {
@@ -13,9 +13,7 @@ public class Patterns {
             System.out.println();
         }
     }
-
-
-    static void pattern30(int n) {
+    public static void pattern30(int n) {
         for (int row = 1; row <= n; row++) {
 
             for (int space = 0; space < n-row; space++) {
