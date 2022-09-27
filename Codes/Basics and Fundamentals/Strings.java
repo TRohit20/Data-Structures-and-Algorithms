@@ -18,5 +18,10 @@ public class Strings {
 //        By doing this, these objects while having the same value are created differently
 //        And are stored outside the string pool
         System.out.println(a.equals(b));
+        prettyprinting();
+    }
+    public static void prettyprinting(){
+        float a = 432.23452f;
+        System.out.println("Formatted Number would be ");
     }
 }
