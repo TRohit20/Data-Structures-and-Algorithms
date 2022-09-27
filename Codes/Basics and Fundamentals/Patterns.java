@@ -50,7 +50,7 @@ public class Patterns {
             System.out.println();
         }
     }
-    static void pattern28(int n) {
+    public static void pattern28(int n) {
         for (int row = 0; row < 2 * n; row++) {
             int totalColsInRow = row > n ? 2 * n - row: row;
 
@@ -59,6 +59,15 @@ public class Patterns {
                 System.out.print(" ");
             }
 
+            for (int col = 0; col < totalColsInRow; col++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    public static void pattern5(int n) {
+        for (int row = 0; row < 2 * n; row++) {
+            int totalColsInRow = row > n ? 2 * n - row: row;
             for (int col = 0; col < totalColsInRow; col++) {
                 System.out.print("* ");
             }
