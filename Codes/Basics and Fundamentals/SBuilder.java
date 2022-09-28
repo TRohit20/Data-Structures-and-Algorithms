@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 //                          String Builder
 // Whe do we use String builder?
@@ -7,7 +6,6 @@ import java.util.Scanner;
 // The Class StringBuilder has many in-built functions or methods to it demonstrated below:
 public class SBuilder {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
 //        Syntax for String Builder: StringBuilder reference_variable_name = new StringBuilder();
         StringBuilder alphabets= new StringBuilder();
         for(int i =0; i<26;i++){
