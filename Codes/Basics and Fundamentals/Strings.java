@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Strings {
@@ -17,10 +18,33 @@ public class Strings {
         String b=new String("Rohit");
 //        By doing this, these objects while having the same value are created differently
 //        And are stored outside the string pool
-        System.out.println(a.equals(b));
+//        System.out.println(a.equals(b));
         prettyprinting();
         Operators();
+        Methods();
     }
+//    Function contains some methods provided to String class in java
+    public static void Methods(){
+        String name= "Rohit King";
+//        Some functions we can perform on strings are:
+//        Syntax: reference_variable.method();
+//        tocharArray converts it to a char array:
+        System.out.println(Arrays.toString(name.toCharArray()));
+//        To convert all to uppercase:
+        System.out.println(name.toUpperCase());
+//        to convert all chars to lowercase:
+        System.out.println(name.toLowerCase());
+//        To replace a char with another:
+        System.out.println(name.replace('i','o'));
+//        To remove the extra white spaces:
+//        System.out.println(name.strip());
+//        To split into sub-array using a space or a char you give:
+        System.out.println(Arrays.toString(name.split("t")));
+//        To check the index of a char:
+        System.out.println(name.indexOf('t'));
+    }
+
+//    Function contains how to pretty print nos or strings
     public static void prettyprinting(){
         float a = 432.23452f;
         double b= 234.23432;
@@ -30,6 +54,7 @@ public class Strings {
 //        Math is a class in java in which value of pi is pre-defined or inbuilt, so we are just accessing it
         System.out.printf("Formatted numbers would be: %.3f and %.2f and %.1f",b,a,Math.PI);
     }
+//    Function contains about + operator in java
     public static void Operators(){
 //        + Operator
 //        char is given in single quote, adding them will give us integer
