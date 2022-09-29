@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Codes/Codes.iml" filepath="$PROJECT_DIR$/Codes/Codes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Data Structures and Algorithms.iml" filepath="$PROJECT_DIR$/Data Structures and Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codes/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Codes/Recursion/Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codes/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Codes/Sorting/Sorting.iml" />
     </modules>
   </component>
