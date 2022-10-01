@@ -6,7 +6,10 @@ public class FibonacciwRecursion {
         System.out.println("Enter a number to find it's Fibonacci number:");
         int n=in.nextInt();
         int ans= fibonacci(n);
-        System.out.println(fibo(n));
+//        for(int i=0;i<13;i++){
+//            System.out.println(fiboFormula(i));
+//        }
+        System.out.println(fiboFormula(n));
     }
     public static int fibonacci(int n){
 //        Base Condition
@@ -18,7 +21,7 @@ public class FibonacciwRecursion {
     }
 //    Way to solve fibonacci without recursion alos:
 //    Just solve the recurrence relation and get the formula and use it:
-    public static int fibo(int n){
-        return (int)(Math.pow((1+ Math.sqrt(5))/2,n) );
-    }
+    public static long fiboFormula(int n){
+    return  (int)((Math.pow(((1+Math.sqrt(5))/2),n)-Math.pow(((1-Math.sqrt(5))/2),n))/Math.sqrt(5));
+}
 }
