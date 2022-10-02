@@ -6,7 +6,9 @@ public class MathforDSA {
         int n= in.nextInt();
         System.out.println(isOdd(n));
         int[] nums={3,3,2,1,2,4,4};
+        int[] nums1={-3,3,1,-1,0};
         System.out.println(unique(nums));
+        System.out.println(Unique(nums1));
     }
 //  Q1.  Function to check if N is even or odd
     public static boolean isOdd(int n){
@@ -20,5 +22,13 @@ public class MathforDSA {
             unique ^= nums[i];
         }
         return unique;
+    }
+//    Q3. Given an array with nos of both +ve and -ve find the unique number
+    public static int Unique(int[] nums){
+        int sum=0;
+        for(int i=0;i<nums.length;i++){
+            sum += nums[i];
+        }
+        return sum;
     }
 }
