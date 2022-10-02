@@ -9,6 +9,7 @@ public class MathforDSA {
         int[] nums1={-3,3,1,-1,0};
         System.out.println(unique(nums));
         System.out.println(Unique(nums1));
+        System.out.println(findi(10232));
     }
 //  Q1.  Function to check if N is even or odd
     public static boolean isOdd(int n){
@@ -30,5 +31,9 @@ public class MathforDSA {
             sum += nums[i];
         }
         return sum;
+    }
+//    Q4. Given a number, find it's ith bit:
+    public static int findi(int n){
+        return n & (1 << n-1);
     }
 }
