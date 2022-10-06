@@ -7,7 +7,7 @@ public class SumofDigits {
 //    Function to get the Sum of Digits of a number
     public static int digitsum(int n){
 //        Base condition
-        if(n==0){
+        if(n/10 ==0){
             return 0;
         }
 //        Recurrence relation
