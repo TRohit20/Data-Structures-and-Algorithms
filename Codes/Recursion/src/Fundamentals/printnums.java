@@ -1,3 +1,5 @@
+package Fundamentals;
+
 public class printnums {
     public static void main(String[] args) {
 //        printnto1(5);

@@ -1,6 +1,8 @@
+package Fundamentals;
+
 public class  Recursion{
     public static void main(String[] args) {
-//        This is a file that shows why and how we can use Recursion
+//        This is a file that shows why and how we can use Fundamentals.Recursion
         numbers(1);
     }
 //    Recursive function:
@@ -12,7 +14,7 @@ public class  Recursion{
             return;
         }
         System.out.println(n);
-//        Recursion: A function calling itself.
+//        Fundamentals.Recursion: A function calling itself.
         numbers(n+1);
 
     }
