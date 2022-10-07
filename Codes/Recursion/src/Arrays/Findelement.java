@@ -9,7 +9,7 @@ public class Findelement {
 //        System.out.println(list);
         System.out.println(findall(arr,0,5,new ArrayList<>()));
     }
-//    Function to find a element in a sorted array with no duplicates
+//    Function to find an element in a sorted array with no duplicates
     public static int find(int[] arr,int target,int index){
 //        Base condition
         if(index == arr.length){
