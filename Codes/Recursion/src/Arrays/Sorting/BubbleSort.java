@@ -14,15 +14,19 @@ public class BubbleSort {
         if(row == 0){
             return arr;
         }
+//        To search the whole row
         if( col < row){
+//            Compare adjacent indexes
             if(arr[col] > arr[col+1]){
 //                Swap the elements
                 int temp = arr[col];
                 arr[col]=arr[col+1];
                 arr[col+1] = temp;
             }
-            bubblesort(arr,row,col+1);
+//            After one pass
+            return bubblesort(arr,row,col+1);
         }
+
         return bubblesort(arr,row-1,0);
 
     }
