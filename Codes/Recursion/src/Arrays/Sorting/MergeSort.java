@@ -22,10 +22,10 @@ public class MergeSort {
         int[] left = mergesort(Arrays.copyOfRange(arr,0,mid));
         int[] right = mergesort(Arrays.copyOfRange(arr,mid,arr.length));
 //        Function used to return the sorted sub arrays merged into one
-        return mergeinplace(left,right);
+        return merge(left,right);
     }
 //    Function to merge the given sorted SubArrays and return the Whole sorted Array
-    public static int[] mergeinplace(int[] left,int[] right){
+    public static int[] merge(int[] left, int[] right){
 //        To store the new sorted Array
         int[] sorted = new int[left.length + right.length];
 //        Pointer for First Sub Array
