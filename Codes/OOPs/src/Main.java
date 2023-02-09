@@ -28,9 +28,7 @@ public class Main {
         }
 
         Employee(){
-            this.employeeID = 12;
-            this.performance = 99.5f;
-            this.employeeName = "Geek lover";
+           this (1957,"Rohit",100.0f);
         }
 
 //        Creating a constructor that takes value from another object
