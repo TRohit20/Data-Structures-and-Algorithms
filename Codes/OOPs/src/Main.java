@@ -61,6 +61,7 @@ public class Main {
 
         FinalExample(String name){
             this.name = name;
+            System.out.println(a);
         }
     }
 }
