@@ -14,6 +14,10 @@ public class Main {
         boolean married;
         static int population;
 
+        static void message(){
+//            System.out.println(this.age); cannot use this keyword inside a Static method
+        }
+
         Humans(int age, String name,int height, boolean married){
             this.age = age;
             this.name = name;
