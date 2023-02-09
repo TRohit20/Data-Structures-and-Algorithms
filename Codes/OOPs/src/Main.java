@@ -11,6 +11,12 @@ public class Main {
 
         Employee random = new Employee(karthik);
         System.out.println(karthik.performance);
+
+        final FinalExample example = new FinalExample("Rohit");
+        example.name = "Rohit T"; //You can modify the value of the instance variable(Object)
+//        But you cannot do this Cz when non-primitive is final, you cannot reassign it
+//        example = new FinalExample("sdfnvjadk");
+
     }
 
 //    Creating a class
@@ -45,6 +51,16 @@ public class Main {
         void changeName(String newName){
             employeeName = newName;
             System.out.println("Hello there, this is " + employeeName);
+        }
+    }
+
+//    A class to demonstrate about final keyword
+    static class FinalExample{
+        final int a = 10;  // Final variable should always be initialised
+        String name;
+
+        FinalExample(String name){
+            this.name = name;
         }
     }
 }
