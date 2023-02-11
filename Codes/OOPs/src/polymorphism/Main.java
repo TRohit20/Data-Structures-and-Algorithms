@@ -8,5 +8,10 @@ public class Main {
 
         s1.area();
         s3.area();
+
+        Shapes s4 = new Circle();
+
+        s1.greeting();
+        s4.greeting(); // You can inherit Static method but cannot override
     }
 }
