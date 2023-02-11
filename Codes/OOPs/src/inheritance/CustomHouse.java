@@ -21,6 +21,7 @@ public class CustomHouse extends House{
 //    Same as prev discussed, it's like House h2 = new CustomHouse(h1);
     CustomHouse(CustomHouse h1){
         super(h1);
-        this.rooms = h1.rooms;
+        rooms = h1.rooms;
+        floors = h1.floors;
     }
 }

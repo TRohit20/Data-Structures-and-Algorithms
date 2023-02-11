@@ -15,11 +15,15 @@ public class Main {
 //        System.out.println(h3.rooms);
 
 //        CustomHouse h4 = new House(12,14,1452);
-        // there are many variables in both parent and child classes
-        // you are given access to variables that are in the ref type i.e. CustomHouse
-        // Hence, you should have access to rooms variable
-        // this also means, that the ones you are trying to access should be initialised
-        // but here, when the obj itself is of type parent class, how will you call the constructor of a child class?
-//        The parent class does not know that 'rooms' exists, hence the error
+//          there are many variables in both parent and child classes
+//          you are given access to variables that are in the ref type i.e. CustomHouse
+//          Hence, you should have access to rooms variable
+//          this also means, that the ones you are trying to access should be initialised
+//          but here, when the obj itself is of type parent class, how will you call the constructor of a child class?
+//          The parent class does not know that 'rooms' exists, hence the error
+
+//      MULTI-LEVEL INHERITANCE
+        HousePrice h5 = new HousePrice();
+        System.out.println(h5.length);
     }
 }
