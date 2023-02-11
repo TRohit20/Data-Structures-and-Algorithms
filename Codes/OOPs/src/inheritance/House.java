@@ -4,8 +4,13 @@ public class House {
     double length;
     private double width;
     double squareFeet;
+//    double rooms;
 
     House(){
+
+//        Every class we create in java are derived from the super class "Object"
+        super();
+
         this.length = 10;
         this.width = 20;
         this.squareFeet = 2000;
