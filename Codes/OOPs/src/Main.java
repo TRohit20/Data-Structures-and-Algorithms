@@ -1,3 +1,5 @@
+import accessControls.Practise;
+
 public class Main {
     public static void main(String[] args) {
         Employee rohit; //You are only declaring the object not creating it
@@ -55,7 +57,7 @@ public class Main {
     }
 
 //    A class to demonstrate about final keyword
-    static class FinalExample{
+    static class FinalExample {
         final int a = 10;  // Final variable should always be initialised
         String name;
 
