@@ -11,4 +11,9 @@ public class Main implements B{
     public void programming() {
 
     }
+
+    public static void main(String[] args) {
+//        Calling a static method from interface
+        A.fun();
+    }
 }
