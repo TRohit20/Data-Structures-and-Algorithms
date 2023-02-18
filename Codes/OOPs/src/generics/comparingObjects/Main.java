@@ -1,26 +1,33 @@
 package generics.comparingObjects;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
 public class Main {
     public static void main(String[] args) {
-        Student rohit = new Student(57,99.7f);
-        Student santosh = new Student(01,99.5f);
-        Student giridhar = new Student(02,99.3f);
-        Student lakshana = new Student(03,99.2f);
-        Student keerthi = new Student(04,99.1f);
+        Student rohit = new Student(12, 89.76f);
+        Student rahul = new Student(5, 99.52f);
+        Student lakshana = new Student(2, 95.52f);
+        Student keerthi = new Student(13, 77.52f);
+        Student santosh = new Student(9, 96.52f);
 
-        Student[] students = {santosh, rohit, keerthi, lakshana, giridhar};
-        System.out.println(Arrays.toString(students));
-//        You can also do this
-        Arrays.sort(students);
-        System.out.println(Arrays.toString(students));
+        Student[] list = {rohit, rahul, lakshana, keerthi, santosh};
 
+        System.out.println(Arrays.toString(list));
+//        Arrays.sort(list, new Comparator<Student>() {
+//            @Override
+//            public int compare(Student o1, Student o2) {
+//                return -(int)(o1.marks - o2.marks);
+//            }
+//        });
 
-        if(rohit.compareTo(santosh) < 0 ){
-            System.out.println("Santosh has more marks than rohit");
-        }
+        Arrays.sort(list, (o1, o2) -> -(int)(o1.marks - o2.marks));
+
+        System.out.println(Arrays.toString(list));
+
+//        if (rohit.compareTo(rahul) < 0) {
+//            System.out.println(rohit.compareTo(rahul));
+//            System.out.println("Rahul has more marks");
+//        }
+
     }
 }
