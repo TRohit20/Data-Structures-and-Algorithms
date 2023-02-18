@@ -7,6 +7,7 @@ Notes can be used for anyone just starting out to someone on the go for a quick 
 
 # Contributing 
 Anything to correct or contribute? 
+
 --> Raise an issue mentioning the changes you'd like or to make 
 
 --> Fork the repository or clone it to your local computer
@@ -14,9 +15,11 @@ Anything to correct or contribute?
 --> Contribute by making changes as you wish by creating a new branch 
 
 --> Open a pull request to merge the new branch of your repo with the main repo here
+
 NOTE: Mention the Issue number the pull request will be closing.
 
 # Resources 
+
 [Java and DSA Preparation with Kunal Kushwaha](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)
 
 
