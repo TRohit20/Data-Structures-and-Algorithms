@@ -1,7 +1,7 @@
 # Data-Structures-and-Algorithms
 ![5719635462717440](https://user-images.githubusercontent.com/108233235/192358183-b13fb71e-3b4f-41fd-af00-6aac3a7e7374.png)
 
-Hi everybody, This repository that consists of Notes of Java, Data Structures and Algorithms, Code samples with explanations through comments.
+The repository that consists of Notes for Java, Data Structures and Algorithms, Code samples with explanations through comments.
 
 Notes can be used for anyone just starting out to someone on the go for a quick review before technical interviews. 
 
@@ -12,11 +12,11 @@ Anything to correct or contribute?
 
 --> Fork the repository or clone it to your local computer
 
---> Contribute by making changes as you wish by creating a new branch 
+--> Contribute by making suggested changed from a new branch 
 
---> Open a pull request to merge the new branch of your repo with the main repo here
+--> Open a pull request to merge the suggested changes
 
-NOTE: Mention the Issue number the pull request will be closing.
+NOTE: Mention the Issue number the pull request will be resolving.
 
 # Resources 
 
